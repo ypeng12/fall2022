@@ -42,6 +42,6 @@ class GameBoard
 
     # String representation of GameBoard (optional but recommended)
     def to_s
-        "STRING METHOD IS NOT IMPLEMENTED"
+        
     end
 end
