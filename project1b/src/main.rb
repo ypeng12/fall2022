@@ -10,7 +10,7 @@ def parser(args)
     players = Players.new(nil, nil)
     raise ArgumentError unless args.size >= 2
     players.game_board_1 = args[0]
-    players.game_board_2 = args[1]
+    players.game_board_2 = args[1]  #ss
     players.attack_1 = args[2] if args.size >= 3
     players.attack_2 = args[3] if args.size >= 4
 
